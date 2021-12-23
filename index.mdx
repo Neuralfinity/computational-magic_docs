@@ -1,0 +1,44 @@
+---
+title: "Quickstart"
+metaTitle: "Computational Magic: Documentation | Neuralfinity"
+metaDescription: "Documentation for the AI API for the JAM stack age"
+---
+
+
+# Information about the beta phase
+
+**Please keep in mind that Computational Magic is in early beta! If you plan to use it in production, we strongly advice to reach out to the team so we can ensure an interuption free experience for you**
+
+[Contact Us](https://www.neuralfinity.com/#contact)
+
+
+## What does beta mean? 
+We currently only implemented a very small feature set that we tested with some of our beta customers as the "minimum viable product". This means, many AI models and other features planned for the final release are not yet included. 
+Further more, we are still standing up the underlying infrastructure. Until this is completed, this will still cause some outages during maintanance windows as well as in the case of unkown bugs that we cannot yet mitigate against. If we know your requirements, we can prioritise specific users to reduce this to a minimum, so if this is a problem, please reach out.
+
+
+# Quickstart Guide
+
+If you already know how to work with GraphQL, then here is what you need: 
+
+## Magic Summary
+
+### Endpoint
+
+(still to be added here)
+
+### Authentication
+
+### Query: 
+
+```GraphQL
+{summary(input: "your long string to be summarised")}
+```
+
+#### Arguments: 
+
+`input` *required*: a (longer) string to be summarised
+
+`minLength` *optional*: minium length of the return text (if not used, optimum default will be used)
+
+`maxLength` *optional*: maximum length of the return text (if not used, optimum default will be used)
