@@ -41,6 +41,6 @@ You have the following available arguments, but only `input` is required:
 
 `minLen: VALUE` *optional*: minium length of the return text (if not used, optimum default will be used)
 
-`maxLen`: VALUE *optional*: maximum length of the return text (if not used, optimum default will be used)
+`maxLen: VALUE` *optional*: maximum length of the return text (if not used, optimum default will be used)
 
 
